@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+.noto {
+    font-family: "Noto Sans", sans-serif;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.fsz-12 {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.fsz-16 {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.fsz-16-hight {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.fsz-18 {
+    font-size: 18px;
+    line-height: 24.5px;
+}
+
+.fsz-20 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.sign_form {
+    padding: 44px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.sign_input {
+    width: 350px;
+    
+    border-bottom: 1px solid #B8B8B8;
+    display: block;
+}
+
+.sign_input::placeholder {
+    color: #B8B8B8;
+}
+
+.sign_input:focus {
+    outline: none;
+    border-bottom: 1px solid #FDC620;
+}
+
+.submit {
+    line-height: 32px;
+    width: 107px;
+    text-align: center;
+    margin-left: auto;
+    background-color: #FDC620;
+}
